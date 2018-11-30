@@ -1,8 +1,0 @@
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\bin\Debug\HLAE mirv_pgl client.exe.config
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\bin\Debug\HLAE mirv_pgl client.exe
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\bin\Debug\HLAE mirv_pgl client.pdb
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\bin\Debug\HLAEServer.dll
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\bin\Debug\HLAEServer.xml
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\obj\Debug\HLAE mirv_pgl client.csproj.CoreCompileInputs.cache
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\obj\Debug\HLAE mirv_pgl client.exe
-C:\Users\ruk1ium\source\repos\ConsoleApp1\mirv_pgl_clienttest\obj\Debug\HLAE mirv_pgl client.pdb
