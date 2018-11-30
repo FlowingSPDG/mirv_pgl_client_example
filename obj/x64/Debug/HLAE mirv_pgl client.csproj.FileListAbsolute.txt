@@ -1,0 +1,9 @@
+R:\mirv_pgl_clienttest\bin\x64\Debug\HLAE mirv_pgl client.exe.config
+R:\mirv_pgl_clienttest\bin\x64\Debug\HLAE mirv_pgl client.exe
+R:\mirv_pgl_clienttest\bin\x64\Debug\HLAE mirv_pgl client.pdb
+R:\mirv_pgl_clienttest\bin\x64\Debug\HLAEServer.dll
+R:\mirv_pgl_clienttest\obj\x64\Debug\HLAE mirv_pgl client.csprojAssemblyReference.cache
+R:\mirv_pgl_clienttest\obj\x64\Debug\HLAE mirv_pgl client.csproj.CoreCompileInputs.cache
+R:\mirv_pgl_clienttest\obj\x64\Debug\HLAE mirv_pgl client.csproj.CopyComplete
+R:\mirv_pgl_clienttest\obj\x64\Debug\HLAE mirv_pgl client.exe
+R:\mirv_pgl_clienttest\obj\x64\Debug\HLAE mirv_pgl client.pdb

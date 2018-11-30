@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "HLAEServer"
+    </assembly>
+    <members>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_fov">
+            <summary>Client Field of View as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Zrot">
+            <summary>Client Z Rotation as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Yrot">
+            <summary>Client Y Rotation as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Xrot">
+            <summary>Client X Rotation as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Zpos">
+            <summary>Client Z Position as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Ypos">
+            <summary>Client Y Position as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Xpos">
+            <summary>Client X Position as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Time">
+            <summary>Client time as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Level">
+            <summary>Client level as last reported by client.</summary>
+        </member>
+        <member name="F:HLAEServer.HLAE_WS_Client.HLAE_Version">
+            <summary>Client mirv_pgl version as last reported by client.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.Name(System.String)">
+            <summary>Sets identifier.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.Name">
+            <summary>Gets identifier.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.SendDataWS(System.String)">
+            <summary>Send 'data' as a command to the client.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.ReadDataWS">
+            <summary>Reads current data in the client buffer and updates
+variables accordingly.<para />
+Should the client send a close connection request, you must
+reinitialize the client.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.Connected">
+            <summary>Returns true if there is a connected client.
+Returns false otherwise.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Client.#ctor(System.String,HLAEServer.HLAE_WS_Server)">
+            <summary>Creates an HLAE Client from incoming TCP request to HLAESERVER.</summary>
+            <param name="identifier">Identifier for easy identification of client</param>
+            <param name="server">Server we are accepting the client from.</param>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.Name(System.String)">
+            <summary>Set identifier.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.Name">
+            <summary>Get identifier.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.Socket">
+            <summary>Returns Socket of incoming connection.<para />
+Use when initializing HLAE_Client.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.StopListening">
+            <summary>Stops Listening.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.StartListening">
+            <summary>Start Listening<para />
+If called while server is already listening
+will cause an exception.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.ClientAvailable">
+            <summary>Returns true if incoming TCP request(s).
+Returns false otherwise.</summary>
+        </member>
+        <member name="M:HLAEServer.HLAE_WS_Server.#ctor(System.Boolean,System.String,System.String,System.Int32)">
+            <summary>Creates a listen server on specified IP and Port.</summary>
+            <param name="LISTEN_ON_INIT">If set to true - start the server after initializing it.</param>
+            <param name="identifier">Identifier for easy identification of server.</param>
+            <param name="IPADDRESS">IP Address of type IPv4/IPv6 to listen on.</param>
+            <param name="PORT">Port to listen on.</param>
+        </member>
+    </members>
+</doc>
