@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Properties"
   ],
-  "SelectedNode": "\\HLAE mirv_pgl client.csproj",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
