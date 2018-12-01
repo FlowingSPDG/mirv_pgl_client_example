@@ -54,7 +54,7 @@
   <ItemGroup>
     <Reference Include="HLAEServer, Version=1.0.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\HLAE-Server-master\1.0.1.0\Release_x64\HLAEServer.dll</HintPath>
+      <HintPath>.\HLAEServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

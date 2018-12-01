@@ -34,7 +34,7 @@ namespace ConsoleApp1
             // Console.WriteLine("Press any key to exit.");
             // Console.ReadKey();
 
-            void WAITFORCLIENT() // can be replaced with vpod Update()
+            void WAITFORCLIENT() // can be replaced with void Update()
             {
                 Console.WriteLine("Waiting for client connects");
                 while (!HLAE_Server.ClientAvailable())
